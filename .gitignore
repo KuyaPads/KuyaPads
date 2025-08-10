@@ -127,11 +127,20 @@ ehthumbs.db
 Thumbs.db
 
 # IDE files
-.vscode/
+.vscode/settings-local.json
+.vscode/launch-local.json
 .idea/
 *.swp
 *.swo
 *~
+
+# Keep VS Code workspace configuration but exclude user-specific files
+!.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/extensions.json
 
 # Temporary files
 tmp/

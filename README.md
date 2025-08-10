@@ -52,8 +52,31 @@ A modern social networking platform connecting Filipino communities worldwide.
 - **MongoDB** 4.4 or higher
 - **npm** or **yarn**
 - **Git**
+- **VS Code** (recommended) with GitHub Copilot for enhanced development experience
 
 ## 🛠️ Installation
+
+### VS Code Setup (Recommended)
+
+For the best development experience with GitHub Copilot integration:
+
+1. **Open in VS Code**
+   ```bash
+   git clone https://github.com/KuyaPads/KuyaPads.git
+   cd KuyaPads
+   code KuyaPads.code-workspace
+   ```
+
+2. **Install Recommended Extensions**
+   - VS Code will prompt you to install recommended extensions
+   - Click "Install All" to get GitHub Copilot, TypeScript support, Tailwind CSS IntelliSense, and more
+   - Sign in to GitHub Copilot when prompted
+
+3. **Use Built-in Tasks**
+   - Press `Ctrl+Shift+P` → "Tasks: Run Task" → "Install All Dependencies"
+   - Press `Ctrl+Shift+P` → "Tasks: Run Task" → "Start Full Application"
+
+For detailed VS Code setup instructions, see [VS Code Setup Guide](docs/VSCODE_SETUP.md).
 
 ### Option 1: Manual Setup
 
@@ -420,6 +443,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - [Deployment Guide](docs/DEPLOYMENT_GUIDE.md)
 - [Contributing Guide](docs/CONTRIBUTING.md)
 - [Docker Deployment](docs/DOCKER_DEPLOYMENT.md)
+- [VS Code Setup Guide](docs/VSCODE_SETUP.md)
 
 ---
 
